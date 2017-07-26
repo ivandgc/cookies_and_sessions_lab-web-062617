@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   root 'products#index'
-  # get 'products/index', to: 'products#index'
   post 'add', to: 'products#add'
 
   # You can have the root of your site routed with "root"
